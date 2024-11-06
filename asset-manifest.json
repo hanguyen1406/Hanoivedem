@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dat-ve-online/static/css/main.f855e6bc.css",
+    "main.js": "/dat-ve-online/static/js/main.5762e46b.js",
+    "static/js/453.6f7bd585.chunk.js": "/dat-ve-online/static/js/453.6f7bd585.chunk.js",
+    "static/media/logo.svg": "/dat-ve-online/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dat-ve-online/index.html",
+    "main.f855e6bc.css.map": "/dat-ve-online/static/css/main.f855e6bc.css.map",
+    "main.5762e46b.js.map": "/dat-ve-online/static/js/main.5762e46b.js.map",
+    "453.6f7bd585.chunk.js.map": "/dat-ve-online/static/js/453.6f7bd585.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.5762e46b.js"
+  ]
+}
