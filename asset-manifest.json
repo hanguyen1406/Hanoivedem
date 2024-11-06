@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dat-ve-online/static/css/main.dd1ea7b7.css",
-    "main.js": "/dat-ve-online/static/js/main.471c84d0.js",
+    "main.js": "/dat-ve-online/static/js/main.4573d15c.js",
     "static/media/5.jpg": "/dat-ve-online/static/media/5.1e640f7bacc0b5a7e8e1.jpg",
     "static/media/6.jpg": "/dat-ve-online/static/media/6.eb536aafd04e1c3a670c.jpg",
     "static/media/7.jpg": "/dat-ve-online/static/media/7.a1c7e34fd43d57d30843.jpg",
@@ -9,12 +9,13 @@
     "static/media/3.jpg": "/dat-ve-online/static/media/3.c4044fdc20f6d3e8b078.jpg",
     "static/media/2.jpg": "/dat-ve-online/static/media/2.ddf0c187fc076f16d0e4.jpg",
     "static/media/1.jpg": "/dat-ve-online/static/media/1.e457e0c7f3982089eb0c.jpg",
+    "static/media/location.png": "/dat-ve-online/static/media/location.e1188e5368fb0448944f.png",
     "index.html": "/dat-ve-online/index.html",
     "main.dd1ea7b7.css.map": "/dat-ve-online/static/css/main.dd1ea7b7.css.map",
-    "main.471c84d0.js.map": "/dat-ve-online/static/js/main.471c84d0.js.map"
+    "main.4573d15c.js.map": "/dat-ve-online/static/js/main.4573d15c.js.map"
   },
   "entrypoints": [
     "static/css/main.dd1ea7b7.css",
-    "static/js/main.471c84d0.js"
+    "static/js/main.4573d15c.js"
   ]
 }
