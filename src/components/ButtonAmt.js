@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card, Button, Row, Col, Space } from "antd";
 import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 
-export const ButtonAmt = ({ ct }) => {
+export const ButtonAmt = ({ ct, price, setCnt }) => {
     const [count1, setCount1] = useState(0);
 
     return (
@@ -28,16 +28,28 @@ export const ButtonAmt = ({ ct }) => {
                         }}
                     >
                         <Button
-                            onClick={() =>
-                                setCount1(count1 > 0 ? count1 - 1 : 0)
-                            }
+                            onClick={() => {
+                                setCount1(() => {
+                                    const newCount1 = count1 > 0 ? count1 - 1 : 0;
+                                    setCnt(newCount1); // use the updated value
+                                    console.log(newCount1); // log the updated value
+                                    return newCount1;
+                                });
+                            }}
                             icon={<MinusOutlined />}
                             shape="circle"
                             style={{ border: "none" }}
                         />
                         <span style={{ margin: "0 10px" }}>{count1}</span>
                         <Button
-                            onClick={() => setCount1(count1 + 1)}
+                            onClick={() => {
+                                setCount1(() => {
+                                    const newCount1 = count1 + 1;
+                                    setCnt(newCount1); // use the updated value
+                                    console.log(newCount1); // log the updated value
+                                    return newCount1;
+                                });
+                            }}
                             icon={<PlusOutlined />}
                             shape="circle"
                             style={{ border: "none" }}
@@ -45,9 +57,9 @@ export const ButtonAmt = ({ ct }) => {
                     </div>
                 </div>
                 <div style={{ margin: "5px" }}>
-                    <s>200.000 đ</s>
+                    <s>{price[0]} đ</s>
                     <br />
-                    <b style={{ color: "red" }}>150.000 đ</b>
+                    <b style={{ color: "red" }}>{price[1]} đ</b>
                 </div>
             </Col>
         </>

@@ -31,7 +31,7 @@ const hoangThanhImages = imagesContext
     .keys()
     .map((imagePath) => imagesContext(imagePath));
 
-const TicketDetail = ({ location, checkinDate, locationDetails }) => {
+const TicketDetail = ({ location, locationDetails }) => {
     const [galleryVisible, setGalleryVisible] = useState(false);
 
     // Chọn bộ ảnh dựa vào địa điểm

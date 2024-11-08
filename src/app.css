@@ -1,0 +1,9 @@
+/* CSS cho navbar */
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Đảm bảo navbar nằm trên các phần tử khác */
+    background-color: #fff; /* Thêm màu nền nếu cần */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm shadow nếu muốn */
+}
