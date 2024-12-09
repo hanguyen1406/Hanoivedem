@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import img1 from "../assets/ho-guom/ho-guom.jpg";
+import img1 from "../assets/hoang-thanh/5.jpg";
 import img2 from "../assets/hoang-thanh/1.jpg";
 import img3 from "../assets/van-mieu/1.jpg";
 import img4 from "../assets/home.jpg";
@@ -91,18 +91,12 @@ const ImageSlider = () => {
 
             {/* Mô tả bên phải */}
             <div className="description">
-                <h2 class="tour-title">KHÁM PHÁ HÀ NỘI VỀ ĐÊM</h2>
+                <h2 class="tour-title">HÀ NỘI VỀ ĐÊM</h2>
                 <p class="tour-destinations">
-                    Hồ Gươm - Phố Cổ - Chợ Đồng Xuân - Lăng Bác - Khu Phố Tây
-                </p>
-                <p class="tour-details">
-                    <strong>Thời gian:</strong> 1 Ngày<br></br>
-                    <strong>Phương tiện:</strong> Ô tô/ Xe máy<br></br>
-                    <strong>Khách sạn:</strong> 4 sao<br></br>
-                    <strong>Khởi hành:</strong> Hàng ngày
+                   Khám phá các địa điểm như: Hoàng Thành Thăng Long, nhà tù Hỏa Lò, Văn Miếu Quốc Tử Giám,...
                 </p>
                 <p class="tour-price">
-                    <strong>Giá từ:</strong>
+                    <strong>Giá chỉ từ:</strong>
                     <br></br>
                     <span class="price-old">200.00 VND</span>
                     <br></br>
