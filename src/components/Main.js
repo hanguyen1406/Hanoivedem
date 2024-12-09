@@ -17,12 +17,14 @@ const Main = () => {
         "van-mieu": "VĂN MIẾU QUỐC TỬ GIÁM",
         "hoa-lo": "NHÀ TÙ HỎA LÒ",
         "hoang-thanh": "HOÀNG THÀNH THĂNG LONG",
+        "bao-tang": "BẢO TÀNG LỊCH SỬ QUÂN SỰ VIỆT NAM",
     };
 
     const address = {
         "van-mieu": "58 P. Quốc Tử Giám, Văn Miếu, Đống Đa, Hà Nội",
         "hoa-lo": "1 P. Hoả Lò, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
         "hoang-thanh": "19c Hoàng Diệu, Điện Biên, Ba Đình, Hà Nội",
+        "bao-tang": "Km6+500 Đại lộ Thăng Long, phường Tây Mỗ - Đại Mỗ, quận Nam Từ Liêm, Hà Nội",
     };
     const chitiet = {
         "van-mieu":
@@ -31,7 +33,8 @@ const Main = () => {
             "Nhà tù Hỏa Lò hay nhà pha Hỏa Lò là một nhà tù do thực dân Pháp xây dựng trên khu đất xưa thuộc làng Hỏa Lò, nay có địa chỉ: số 1 phố Hỏa Lò, phường Trần Hưng Đạo, quận Hoàn Kiếm, Hà Nội, Việt Nam. Nhà tù Hỏa Lò là một địa danh nổi tiếng bởi từng là nơi giam giữ rất nhiều nhà cách mạng lớn của Việt Nam trong Chiến tranh Đông Dương và phi công Mỹ trong Chiến tranh Việt Nam. Địa danh này được Bộ Văn hoá Thể thao và Du lịch của Việt Nam ra quyết định số 1543-QĐ/VH ngày 18/6/1997 công nhận là di tích lịch sử.",
         "hoang-thanh":
             "Hoàng thành Thăng Long (chữ Hán: 昇龍皇城; Hán-Việt: Thăng Long Hoàng thành) là quần thể di tích gắn với lịch sử kinh thành Thăng Long - Đông Kinh và tỉnh thành Hà Nội bắt đầu từ thời kì tiền Thăng Long (An Nam đô hộ phủ thế kỷ VII) qua thời Đinh - Tiền Lê, phát triển mạnh dưới thời Lý, Trần, Lê và thành Hà Nội dưới triều Nguyễn. Đây là công trình kiến trúc các triều vua xây dựng trong nhiều giai đoạn lịch sử và trở thành một trong những di tích quan trọng bậc nhất trong hệ thống các di tích Việt Nam.",
-    };
+        "bao-tang": "Bảo tàng Lịch sử Quân sự Việt Nam là một trong những bảo tàng quân sự lớn và lâu đời nhất tại Việt Nam, lưu giữ, phát huy các giá trị lịch sử quân sự của dân tộc, thành lập năm 1956, có vị trí ở bên Cột cờ Hà Nội, là địa chỉ quen thuộc đối với du khách trong nước và quốc tế khi đến Thủ đô; từ năm 2020, Quân ủy Trung ương, Bộ Quốc phòng và Tổng cục Chính trị đã triển khai xây dựng Bảo tàng mới tại Km6+500 Đại lộ Thăng Long, phường Tây Mỗ - Đại Mỗ, quận Nam Từ Liêm, Hà Nội, trên diện tích 386.600m², với quy mô 4 tầng nổi, 1 tầng hầm, thiết kế hiện đại, điểm nhấn là Tháp Chiến thắng cao 45m mang ý nghĩa Việt Nam giành độc lập năm 1945, hiện lưu giữ hơn 150.000 hiện vật, gồm 4 bảo vật quốc gia và nhiều hiện vật quý giá."
+        };
 
     function generateRandomUppercaseString(length = 5) {
         let result = "";
