@@ -1,30 +1,22 @@
 {
   "files": {
-    "main.css": "/Hanoivedem/static/css/main.7cb157a5.css",
-    "main.js": "/Hanoivedem/static/js/main.209ef6a4.js",
-    "static/media/bun-cha.jpg": "/Hanoivedem/static/media/bun-cha.9cdfe8c083ebe4a309ba.jpg",
+    "main.css": "/Hanoivedem/static/css/main.36c3664f.css",
+    "main.js": "/Hanoivedem/static/js/main.de1c6964.js",
+    "static/media/7.jpg": "/Hanoivedem/static/media/7.a1c7e34fd43d57d30843.jpg",
     "static/media/5.jpg": "/Hanoivedem/static/media/5.1e640f7bacc0b5a7e8e1.jpg",
     "static/media/6.jpg": "/Hanoivedem/static/media/6.eb536aafd04e1c3a670c.jpg",
-    "static/media/7.jpg": "/Hanoivedem/static/media/7.a1c7e34fd43d57d30843.jpg",
     "static/media/4.jpg": "/Hanoivedem/static/media/4.80af8ec5bac55eff1144.jpg",
     "static/media/3.jpg": "/Hanoivedem/static/media/3.c4044fdc20f6d3e8b078.jpg",
     "static/media/home.jpg": "/Hanoivedem/static/media/home.cf73799acb80179ddf00.jpg",
     "static/media/2.jpg": "/Hanoivedem/static/media/2.ddf0c187fc076f16d0e4.jpg",
-    "static/media/bun-cha-1.jpeg": "/Hanoivedem/static/media/bun-cha-1.5dd274fab758a3bb399a.jpeg",
-    "static/media/ho-guom-2.jpg": "/Hanoivedem/static/media/ho-guom-2.d4b5c30994810b7110af.jpg",
     "static/media/1.jpg": "/Hanoivedem/static/media/1.e457e0c7f3982089eb0c.jpg",
-    "static/media/bun-cha-2.jpeg": "/Hanoivedem/static/media/bun-cha-2.a5011aae39b193e52caf.jpeg",
-    "static/media/ho-guom-1.jpg": "/Hanoivedem/static/media/ho-guom-1.8628ecb13269fd8b7b90.jpg",
     "static/media/location.png": "/Hanoivedem/static/media/location.e1188e5368fb0448944f.png",
-    "static/media/bun-cha-3.jpg": "/Hanoivedem/static/media/bun-cha-3.70dd8be3a9b20694f78c.jpg",
-    "static/media/ho-guom-3.jpg": "/Hanoivedem/static/media/ho-guom-3.fb495ee6194bc3ab41d9.jpg",
-    "static/media/ho-guom.jpg": "/Hanoivedem/static/media/ho-guom.abad7194e697fc14e779.jpg",
     "index.html": "/Hanoivedem/index.html",
-    "main.7cb157a5.css.map": "/Hanoivedem/static/css/main.7cb157a5.css.map",
-    "main.209ef6a4.js.map": "/Hanoivedem/static/js/main.209ef6a4.js.map"
+    "main.36c3664f.css.map": "/Hanoivedem/static/css/main.36c3664f.css.map",
+    "main.de1c6964.js.map": "/Hanoivedem/static/js/main.de1c6964.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cb157a5.css",
-    "static/js/main.209ef6a4.js"
+    "static/css/main.36c3664f.css",
+    "static/js/main.de1c6964.js"
   ]
 }
