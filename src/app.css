@@ -213,3 +213,247 @@ img.lac {
         transform: rotate(0) scale(1) skew(1deg);
     }
 }
+.content {
+    padding: 50px;
+}
+.slider-container {
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    margin-top: 60px;
+}
+
+
+.slider-wrapper {
+    flex: 2;
+    position: relative;
+}
+
+.slider-wrapper .slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.description {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.description ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.description ul li {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.description .pricing {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-book-tour {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.btn-book-tour:hover {
+    background-color: #0056b3;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Đảm bảo các ảnh sẽ xuống dòng khi không đủ không gian */
+}
+
+.image-container img {
+    width: 20%;
+    max-width: 100%; /* Đảm bảo ảnh không quá rộng */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .slider-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .description {
+    }
+
+    .btn-book-tour {
+        width: auto;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column; /* Chuyển các ảnh thành cột */
+        align-items: center; /* Căn giữa các ảnh */
+    }
+
+    .image-container img {
+        width: 80%; /* Mỗi ảnh chiếm 80% chiều rộng */
+        margin-bottom: 20px; /* Khoảng cách giữa các ảnh */
+    }
+}
+.section-title {
+    color: #0056b3;
+}
+.btn-book-tour {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #f44d3c;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: bounce 2s ease infinite;
+}
+
+.btn-book-tour:hover {
+    transform: translateY(-5px); /* Di chuyển nút lên một chút */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Thêm hiệu ứng bóng đổ */
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.btn-book-tour:active {
+    transform: translateY(
+        2px
+    ); /* Nút sẽ lún xuống một chút khi người dùng nhấn */
+    box-shadow: none; /* Bỏ bóng đổ khi nhấn */
+}
+.office-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.office-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Layout cho màn hình lớn (máy tính) */
+.contact-info,
+.office-hours,
+.social-media {
+    flex: 1 1 30%; /* Chia đều 3 phần */
+    margin: 10px;
+}
+
+.office-info > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bold-hr {
+    border: none; /* Loại bỏ viền mặc định */
+    height: 3px; /* Đặt chiều cao cho thẻ hr */
+    background-color: #333; /* Màu sắc của thẻ hr */
+    margin: 20px 0; /* Khoảng cách trên và dưới */
+  }
+.contact-info p,
+.office-hours p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contact-info i,
+.social-media i {
+    margin-right: 10px;
+}
+.social-media a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #333;
+    text-decoration: none;
+}
+.social-media a:hover {
+    color: #0073e6;
+}
+
+/* Responsive cho thiết bị di động */
+@media (max-width: 768px) {
+    .office-info {
+        padding: 10px;
+    }
+
+    .office-info > div {
+        display: block; /* Chuyển sang dạng dọc */
+    }
+
+    .contact-info,
+    .office-hours,
+    .social-media {
+        margin: 10px 0;
+        flex: none; /* Không chia theo tỉ lệ nữa */
+    }
+}

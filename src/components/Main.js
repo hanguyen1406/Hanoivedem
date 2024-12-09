@@ -72,6 +72,7 @@ const Main = () => {
                     />
                 </div>
             </Content>
+
         </Layout>
     );
 };
