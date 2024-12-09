@@ -24,7 +24,12 @@ const Home = () => {
                     </h2>
                 </h2>
                 <br></br>
-                <div class="content"></div>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <a onClick={()=> navigate('/Hanoivedem/dat-ve')}>
+
+                    <button className="btn-book-tour">ĐẶT VÉ NGAY!</button>
+                    </a>
+                </div>
             </div>
             <hr class="bold-hr"></hr>
             <section class="office-info">

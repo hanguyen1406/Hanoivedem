@@ -10,7 +10,6 @@ import { useNavigate } from "react-router-dom";
 
 const ImageSlider = () => {
     const images = [img1, img2, img3, img4, img5, img6];
-    const navigate = useNavigate();
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
@@ -102,12 +101,7 @@ const ImageSlider = () => {
                     <br></br>
                     <span class="price-new">300.000 VND</span>
                 </p>
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                    <a onClick={()=> navigate('/Hanoivedem/dat-ve')}>
-
-                    <button className="btn-book-tour">ĐẶT VÉ NGAY!</button>
-                    </a>
-                </div>
+                
             </div>
         </div>
     );
